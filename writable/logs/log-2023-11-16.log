@@ -1,0 +1,847 @@
+INFO - 2023-11-16 15:52:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-16 15:52:33 --> Trying to access array offset on value of type null
+in APPPATH/Views/auth/components/navbar.php on line 70.
+ 1 APPPATH/Views/auth/components/navbar.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/Users/roobee/http/spa/app/Views/auth/components/navbar.php', 70)
+ 2 SYSTEMPATH/View/View.php(228): include('/Users/roobee/http/spa/app/Views/auth/components/navbar.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('App\\Views\\auth\\components\\navbar', [], true)
+ 5 APPPATH/Views/auth/layouts/default.php(32): view('App\\Views\\auth\\components\\navbar')
+ 6 SYSTEMPATH/View/View.php(228): include('/Users/roobee/http/spa/app/Views/auth/layouts/default.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(244): CodeIgniter\View\View->render('auth/layouts/default', [], true)
+ 9 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('auth/user-logs', [], true)
+10 APPPATH/Controllers/Auth/UsersController.php(210): view('auth/user-logs', [...])
+11 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Auth\UsersController->userLogs()
+12 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\UsersController))
+13 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/roobee/http/spa/public/index.php')
+CRITICAL - 2023-11-16 15:52:33 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /Users/roobee/http/spa/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /Users/roobee/http/spa/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /Users/roobee/http/spa/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /Users/roobee/http/spa/system/Debug/ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, '/Users/roobee/h...')
+#3 /Users/roobee/http/spa/system/Debug/Exceptions.php(149): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Trying to access array offset on value of type null
+#0 /Users/roobee/http/spa/app/Views/auth/components/navbar.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/roobee/h...', 70)
+#1 /Users/roobee/http/spa/system/View/View.php(228): include('/Users/roobee/h...')
+#2 /Users/roobee/http/spa/system/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/roobee/http/spa/system/Common.php(1190): CodeIgniter\View\View->render('App\\Views\\auth\\...', Array, true)
+#4 /Users/roobee/http/spa/app/Views/auth/layouts/default.php(32): view('App\\Views\\auth\\...')
+#5 /Users/roobee/http/spa/system/View/View.php(228): include('/Users/roobee/h...')
+#6 /Users/roobee/http/spa/system/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /Users/roobee/http/spa/system/View/View.php(244): CodeIgniter\View\View->render('auth/layouts/de...', Array, true)
+#8 /Users/roobee/http/spa/system/Common.php(1190): CodeIgniter\View\View->render('auth/user-logs', Array, true)
+#9 /Users/roobee/http/spa/app/Controllers/Auth/UsersController.php(210): view('auth/user-logs', Array)
+#10 /Users/roobee/http/spa/system/CodeIgniter.php(942): App\Controllers\Auth\UsersController->userLogs()
+#11 /Users/roobee/http/spa/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\UsersController))
+#12 /Users/roobee/http/spa/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /Users/roobee/http/spa/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#14 /Users/roobee/http/spa/system/Commands/Server/rewrite.php(47): require_once('/Users/roobee/h...')
+#15 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-11-16 15:52:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 15:52:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 15:52:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 15:53:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 15:53:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 15:53:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 15:53:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 15:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 15:53:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 15:53:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 15:53:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 15:53:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 15:54:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 15:54:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 15:54:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 15:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 15:55:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 15:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 15:56:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 15:56:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 15:56:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 15:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 15:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 15:59:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 15:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 15:59:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 15:59:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 15:59:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 15:59:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 15:59:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 15:59:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 16:00:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 16:00:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 16:00:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 16:00:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 16:00:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 16:01:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 16:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 16:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 16:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 16:05:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 16:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 16:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 16:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 16:19:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 16:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 16:19:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 16:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 16:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 16:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 16:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 16:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-16 16:21:11 --> Undefined variable $data
+in APPPATH/Views/customers.php on line 26.
+ 1 APPPATH/Views/customers.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', '/Users/roobee/http/spa/app/Views/customers.php', 26)
+ 2 SYSTEMPATH/View/View.php(228): include('/Users/roobee/http/spa/app/Views/customers.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('customers', [], true)
+ 5 APPPATH/Controllers/CustomersController.php(39): view('customers', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CustomersController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomersController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/roobee/http/spa/public/index.php')
+CRITICAL - 2023-11-16 16:21:11 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /Users/roobee/http/spa/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /Users/roobee/http/spa/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /Users/roobee/http/spa/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /Users/roobee/http/spa/system/Debug/ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, '/Users/roobee/h...')
+#3 /Users/roobee/http/spa/system/Debug/Exceptions.php(149): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined variable $data
+#0 /Users/roobee/http/spa/app/Views/customers.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/roobee/h...', 26)
+#1 /Users/roobee/http/spa/system/View/View.php(228): include('/Users/roobee/h...')
+#2 /Users/roobee/http/spa/system/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/roobee/http/spa/system/Common.php(1190): CodeIgniter\View\View->render('customers', Array, true)
+#4 /Users/roobee/http/spa/app/Controllers/CustomersController.php(39): view('customers', Array)
+#5 /Users/roobee/http/spa/system/CodeIgniter.php(942): App\Controllers\CustomersController->index()
+#6 /Users/roobee/http/spa/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomersController))
+#7 /Users/roobee/http/spa/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/roobee/http/spa/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 /Users/roobee/http/spa/system/Commands/Server/rewrite.php(47): require_once('/Users/roobee/h...')
+#10 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-11-16 16:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-16 16:22:17 --> foreach() argument must be of type array|object, string given
+in APPPATH/Views/customers.php on line 26.
+ 1 APPPATH/Views/customers.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', '/Users/roobee/http/spa/app/Views/customers.php', 26)
+ 2 SYSTEMPATH/View/View.php(228): include('/Users/roobee/http/spa/app/Views/customers.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('customers', [], true)
+ 5 APPPATH/Controllers/CustomersController.php(39): view('customers', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CustomersController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomersController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/roobee/http/spa/public/index.php')
+CRITICAL - 2023-11-16 16:22:17 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /Users/roobee/http/spa/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /Users/roobee/http/spa/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /Users/roobee/http/spa/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /Users/roobee/http/spa/system/Debug/ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, '/Users/roobee/h...')
+#3 /Users/roobee/http/spa/system/Debug/Exceptions.php(149): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+foreach() argument must be of type array|object, string given
+#0 /Users/roobee/http/spa/app/Views/customers.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', '/Users/roobee/h...', 26)
+#1 /Users/roobee/http/spa/system/View/View.php(228): include('/Users/roobee/h...')
+#2 /Users/roobee/http/spa/system/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/roobee/http/spa/system/Common.php(1190): CodeIgniter\View\View->render('customers', Array, true)
+#4 /Users/roobee/http/spa/app/Controllers/CustomersController.php(39): view('customers', Array)
+#5 /Users/roobee/http/spa/system/CodeIgniter.php(942): App\Controllers\CustomersController->index()
+#6 /Users/roobee/http/spa/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomersController))
+#7 /Users/roobee/http/spa/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/roobee/http/spa/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 /Users/roobee/http/spa/system/Commands/Server/rewrite.php(47): require_once('/Users/roobee/h...')
+#10 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-11-16 16:22:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 16:23:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-16 16:23:08 --> Trying to access array offset on value of type null
+in APPPATH/Views/auth/components/navbar.php on line 127.
+ 1 APPPATH/Views/auth/components/navbar.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/Users/roobee/http/spa/app/Views/auth/components/navbar.php', 127)
+ 2 SYSTEMPATH/View/View.php(228): include('/Users/roobee/http/spa/app/Views/auth/components/navbar.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('App\\Views\\auth\\components\\navbar', [], true)
+ 5 APPPATH/Views/auth/layouts/default.php(32): view('App\\Views\\auth\\components\\navbar')
+ 6 SYSTEMPATH/View/View.php(228): include('/Users/roobee/http/spa/app/Views/auth/layouts/default.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(244): CodeIgniter\View\View->render('auth/layouts/default', [], true)
+ 9 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('customers', [], true)
+10 APPPATH/Controllers/CustomersController.php(39): view('customers', [...])
+11 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CustomersController->index()
+12 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomersController))
+13 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/roobee/http/spa/public/index.php')
+CRITICAL - 2023-11-16 16:23:08 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /Users/roobee/http/spa/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /Users/roobee/http/spa/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /Users/roobee/http/spa/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /Users/roobee/http/spa/system/Debug/ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, '/Users/roobee/h...')
+#3 /Users/roobee/http/spa/system/Debug/Exceptions.php(149): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Trying to access array offset on value of type null
+#0 /Users/roobee/http/spa/app/Views/auth/components/navbar.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/roobee/h...', 127)
+#1 /Users/roobee/http/spa/system/View/View.php(228): include('/Users/roobee/h...')
+#2 /Users/roobee/http/spa/system/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/roobee/http/spa/system/Common.php(1190): CodeIgniter\View\View->render('App\\Views\\auth\\...', Array, true)
+#4 /Users/roobee/http/spa/app/Views/auth/layouts/default.php(32): view('App\\Views\\auth\\...')
+#5 /Users/roobee/http/spa/system/View/View.php(228): include('/Users/roobee/h...')
+#6 /Users/roobee/http/spa/system/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /Users/roobee/http/spa/system/View/View.php(244): CodeIgniter\View\View->render('auth/layouts/de...', Array, true)
+#8 /Users/roobee/http/spa/system/Common.php(1190): CodeIgniter\View\View->render('customers', Array, true)
+#9 /Users/roobee/http/spa/app/Controllers/CustomersController.php(39): view('customers', Array)
+#10 /Users/roobee/http/spa/system/CodeIgniter.php(942): App\Controllers\CustomersController->index()
+#11 /Users/roobee/http/spa/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomersController))
+#12 /Users/roobee/http/spa/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /Users/roobee/http/spa/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#14 /Users/roobee/http/spa/system/Commands/Server/rewrite.php(47): require_once('/Users/roobee/h...')
+#15 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-11-16 16:25:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 16:25:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 16:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 16:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 16:33:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 16:33:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 16:33:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 16:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 16:41:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 16:42:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 16:42:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 16:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 16:42:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 16:42:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 16:47:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 16:47:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 16:48:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 16:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 16:51:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 16:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 16:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 16:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 16:53:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 16:54:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 16:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 16:55:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 17:00:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 17:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 17:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 17:23:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 17:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 17:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 17:51:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 17:52:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-16 17:52:29 --> 22 : The requested URL returned error: 404 
+in SYSTEMPATH/HTTP/CURLRequest.php on line 693.
+ 1 SYSTEMPATH/HTTP/CURLRequest.php(693): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 404 ')
+ 2 SYSTEMPATH/HTTP/CURLRequest.php(387): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH/HTTP/CURLRequest.php(145): CodeIgniter\HTTP\CURLRequest->send('get', 'https://dummyjson.com/usersx')
+ 4 SYSTEMPATH/HTTP/CURLRequest.php(180): CodeIgniter\HTTP\CURLRequest->request('get', 'https://dummyjson.com/usersx', [])
+ 5 APPPATH/Models/CustomersModel.php(22): CodeIgniter\HTTP\CURLRequest->get('usersx')
+ 6 APPPATH/Controllers/CustomersController.php(36): App\Models\CustomersModel->getCustomers('*')
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CustomersController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomersController))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/roobee/http/spa/public/index.php')
+CRITICAL - 2023-11-16 17:52:29 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /Users/roobee/http/spa/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /Users/roobee/http/spa/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /Users/roobee/http/spa/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /Users/roobee/http/spa/system/Debug/ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\HTTP\Exceptions\HTTPException), 500, '/Users/roobee/h...')
+#3 /Users/roobee/http/spa/system/Debug/Exceptions.php(149): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\HTTP\Exceptions\HTTPException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\HTTP\Exceptions\HTTPException))
+#5 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\HTTP\Exceptions\HTTPException
+22 : The requested URL returned error: 404 
+#0 /Users/roobee/http/spa/system/HTTP/CURLRequest.php(693): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 /Users/roobee/http/spa/system/HTTP/CURLRequest.php(387): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 /Users/roobee/http/spa/system/HTTP/CURLRequest.php(145): CodeIgniter\HTTP\CURLRequest->send('get', 'https://dummyjs...')
+#3 /Users/roobee/http/spa/system/HTTP/CURLRequest.php(180): CodeIgniter\HTTP\CURLRequest->request('get', 'https://dummyjs...', Array)
+#4 /Users/roobee/http/spa/app/Models/CustomersModel.php(22): CodeIgniter\HTTP\CURLRequest->get('usersx')
+#5 /Users/roobee/http/spa/app/Controllers/CustomersController.php(36): App\Models\CustomersModel->getCustomers('*')
+#6 /Users/roobee/http/spa/system/CodeIgniter.php(942): App\Controllers\CustomersController->index()
+#7 /Users/roobee/http/spa/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomersController))
+#8 /Users/roobee/http/spa/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/roobee/http/spa/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /Users/roobee/http/spa/system/Commands/Server/rewrite.php(47): require_once('/Users/roobee/h...')
+#11 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-11-16 17:58:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 17:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 18:02:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-16 18:02:30 --> 22 : The requested URL returned error: 404 
+in SYSTEMPATH/HTTP/CURLRequest.php on line 693.
+ 1 SYSTEMPATH/HTTP/CURLRequest.php(693): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 404 ')
+ 2 SYSTEMPATH/HTTP/CURLRequest.php(387): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH/HTTP/CURLRequest.php(145): CodeIgniter\HTTP\CURLRequest->send('get', 'https://dummyjson.com/usersx')
+ 4 SYSTEMPATH/HTTP/CURLRequest.php(180): CodeIgniter\HTTP\CURLRequest->request('get', 'https://dummyjson.com/usersx', [])
+ 5 APPPATH/Models/CustomersModel.php(22): CodeIgniter\HTTP\CURLRequest->get('usersx')
+ 6 APPPATH/Controllers/CustomersController.php(36): App\Models\CustomersModel->getCustomers('*')
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CustomersController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomersController))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/roobee/http/spa/public/index.php')
+CRITICAL - 2023-11-16 18:02:30 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::clean_path() in /Users/roobee/http/spa/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /Users/roobee/http/spa/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /Users/roobee/http/spa/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /Users/roobee/http/spa/system/Debug/ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\HTTP\Exceptions\HTTPException), 500, '/Users/roobee/h...')
+#3 /Users/roobee/http/spa/system/Debug/Exceptions.php(149): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\HTTP\Exceptions\HTTPException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\HTTP\Exceptions\HTTPException))
+#5 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\HTTP\Exceptions\HTTPException
+22 : The requested URL returned error: 404 
+#0 /Users/roobee/http/spa/system/HTTP/CURLRequest.php(693): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 /Users/roobee/http/spa/system/HTTP/CURLRequest.php(387): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 /Users/roobee/http/spa/system/HTTP/CURLRequest.php(145): CodeIgniter\HTTP\CURLRequest->send('get', 'https://dummyjs...')
+#3 /Users/roobee/http/spa/system/HTTP/CURLRequest.php(180): CodeIgniter\HTTP\CURLRequest->request('get', 'https://dummyjs...', Array)
+#4 /Users/roobee/http/spa/app/Models/CustomersModel.php(22): CodeIgniter\HTTP\CURLRequest->get('usersx')
+#5 /Users/roobee/http/spa/app/Controllers/CustomersController.php(36): App\Models\CustomersModel->getCustomers('*')
+#6 /Users/roobee/http/spa/system/CodeIgniter.php(942): App\Controllers\CustomersController->index()
+#7 /Users/roobee/http/spa/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomersController))
+#8 /Users/roobee/http/spa/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/roobee/http/spa/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /Users/roobee/http/spa/system/Commands/Server/rewrite.php(47): require_once('/Users/roobee/h...')
+#11 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-11-16 18:03:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-16 18:03:06 --> 22 : The requested URL returned error: 404 
+in SYSTEMPATH/HTTP/CURLRequest.php on line 693.
+ 1 SYSTEMPATH/HTTP/CURLRequest.php(693): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 404 ')
+ 2 SYSTEMPATH/HTTP/CURLRequest.php(387): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH/HTTP/CURLRequest.php(145): CodeIgniter\HTTP\CURLRequest->send('get', 'https://dummyjson.com/usersx')
+ 4 SYSTEMPATH/HTTP/CURLRequest.php(180): CodeIgniter\HTTP\CURLRequest->request('get', 'https://dummyjson.com/usersx', [])
+ 5 APPPATH/Models/CustomersModel.php(22): CodeIgniter\HTTP\CURLRequest->get('usersx')
+ 6 APPPATH/Controllers/CustomersController.php(36): App\Models\CustomersModel->getCustomers('*')
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CustomersController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomersController))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/roobee/http/spa/public/index.php')
+CRITICAL - 2023-11-16 18:03:06 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /Users/roobee/http/spa/app/Views/errors/html/error_exception.php:73
+Stack trace:
+#0 /Users/roobee/http/spa/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /Users/roobee/http/spa/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /Users/roobee/http/spa/system/Debug/ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\HTTP\Exceptions\HTTPException), 500, '/Users/roobee/h...')
+#3 /Users/roobee/http/spa/system/Debug/Exceptions.php(149): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\HTTP\Exceptions\HTTPException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\HTTP\Exceptions\HTTPException))
+#5 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\HTTP\Exceptions\HTTPException
+22 : The requested URL returned error: 404 
+#0 /Users/roobee/http/spa/system/HTTP/CURLRequest.php(693): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 /Users/roobee/http/spa/system/HTTP/CURLRequest.php(387): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 /Users/roobee/http/spa/system/HTTP/CURLRequest.php(145): CodeIgniter\HTTP\CURLRequest->send('get', 'https://dummyjs...')
+#3 /Users/roobee/http/spa/system/HTTP/CURLRequest.php(180): CodeIgniter\HTTP\CURLRequest->request('get', 'https://dummyjs...', Array)
+#4 /Users/roobee/http/spa/app/Models/CustomersModel.php(22): CodeIgniter\HTTP\CURLRequest->get('usersx')
+#5 /Users/roobee/http/spa/app/Controllers/CustomersController.php(36): App\Models\CustomersModel->getCustomers('*')
+#6 /Users/roobee/http/spa/system/CodeIgniter.php(942): App\Controllers\CustomersController->index()
+#7 /Users/roobee/http/spa/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomersController))
+#8 /Users/roobee/http/spa/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/roobee/http/spa/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /Users/roobee/http/spa/system/Commands/Server/rewrite.php(47): require_once('/Users/roobee/h...')
+#11 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 73.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-11-16 18:03:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-16 18:03:48 --> 22 : The requested URL returned error: 404 
+in SYSTEMPATH/HTTP/CURLRequest.php on line 693.
+ 1 SYSTEMPATH/HTTP/CURLRequest.php(693): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 404 ')
+ 2 SYSTEMPATH/HTTP/CURLRequest.php(387): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH/HTTP/CURLRequest.php(145): CodeIgniter\HTTP\CURLRequest->send('get', 'https://dummyjson.com/usersx')
+ 4 SYSTEMPATH/HTTP/CURLRequest.php(180): CodeIgniter\HTTP\CURLRequest->request('get', 'https://dummyjson.com/usersx', [])
+ 5 APPPATH/Models/CustomersModel.php(22): CodeIgniter\HTTP\CURLRequest->get('usersx')
+ 6 APPPATH/Controllers/CustomersController.php(36): App\Models\CustomersModel->getCustomers('*')
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CustomersController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomersController))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/roobee/http/spa/public/index.php')
+CRITICAL - 2023-11-16 18:03:48 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /Users/roobee/http/spa/app/Views/errors/html/error_exception.php:69
+Stack trace:
+#0 /Users/roobee/http/spa/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /Users/roobee/http/spa/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /Users/roobee/http/spa/system/Debug/ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\HTTP\Exceptions\HTTPException), 500, '/Users/roobee/h...')
+#3 /Users/roobee/http/spa/system/Debug/Exceptions.php(149): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\HTTP\Exceptions\HTTPException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\HTTP\Exceptions\HTTPException))
+#5 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\HTTP\Exceptions\HTTPException
+22 : The requested URL returned error: 404 
+#0 /Users/roobee/http/spa/system/HTTP/CURLRequest.php(693): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 /Users/roobee/http/spa/system/HTTP/CURLRequest.php(387): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 /Users/roobee/http/spa/system/HTTP/CURLRequest.php(145): CodeIgniter\HTTP\CURLRequest->send('get', 'https://dummyjs...')
+#3 /Users/roobee/http/spa/system/HTTP/CURLRequest.php(180): CodeIgniter\HTTP\CURLRequest->request('get', 'https://dummyjs...', Array)
+#4 /Users/roobee/http/spa/app/Models/CustomersModel.php(22): CodeIgniter\HTTP\CURLRequest->get('usersx')
+#5 /Users/roobee/http/spa/app/Controllers/CustomersController.php(36): App\Models\CustomersModel->getCustomers('*')
+#6 /Users/roobee/http/spa/system/CodeIgniter.php(942): App\Controllers\CustomersController->index()
+#7 /Users/roobee/http/spa/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomersController))
+#8 /Users/roobee/http/spa/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/roobee/http/spa/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /Users/roobee/http/spa/system/Commands/Server/rewrite.php(47): require_once('/Users/roobee/h...')
+#11 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 69.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-11-16 18:04:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-16 18:04:23 --> 22 : The requested URL returned error: 404 
+in SYSTEMPATH/HTTP/CURLRequest.php on line 693.
+ 1 SYSTEMPATH/HTTP/CURLRequest.php(693): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 404 ')
+ 2 SYSTEMPATH/HTTP/CURLRequest.php(387): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH/HTTP/CURLRequest.php(145): CodeIgniter\HTTP\CURLRequest->send('get', 'https://dummyjson.com/usersx')
+ 4 SYSTEMPATH/HTTP/CURLRequest.php(180): CodeIgniter\HTTP\CURLRequest->request('get', 'https://dummyjson.com/usersx', [])
+ 5 APPPATH/Models/CustomersModel.php(22): CodeIgniter\HTTP\CURLRequest->get('usersx')
+ 6 APPPATH/Controllers/CustomersController.php(36): App\Models\CustomersModel->getCustomers('*')
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CustomersController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomersController))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/roobee/http/spa/public/index.php')
+CRITICAL - 2023-11-16 18:04:23 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /Users/roobee/http/spa/app/Views/errors/html/error_exception.php:357
+Stack trace:
+#0 /Users/roobee/http/spa/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /Users/roobee/http/spa/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /Users/roobee/http/spa/system/Debug/ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\HTTP\Exceptions\HTTPException), 500, '/Users/roobee/h...')
+#3 /Users/roobee/http/spa/system/Debug/Exceptions.php(149): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\HTTP\Exceptions\HTTPException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\HTTP\Exceptions\HTTPException))
+#5 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\HTTP\Exceptions\HTTPException
+22 : The requested URL returned error: 404 
+#0 /Users/roobee/http/spa/system/HTTP/CURLRequest.php(693): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 /Users/roobee/http/spa/system/HTTP/CURLRequest.php(387): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 /Users/roobee/http/spa/system/HTTP/CURLRequest.php(145): CodeIgniter\HTTP\CURLRequest->send('get', 'https://dummyjs...')
+#3 /Users/roobee/http/spa/system/HTTP/CURLRequest.php(180): CodeIgniter\HTTP\CURLRequest->request('get', 'https://dummyjs...', Array)
+#4 /Users/roobee/http/spa/app/Models/CustomersModel.php(22): CodeIgniter\HTTP\CURLRequest->get('usersx')
+#5 /Users/roobee/http/spa/app/Controllers/CustomersController.php(36): App\Models\CustomersModel->getCustomers('*')
+#6 /Users/roobee/http/spa/system/CodeIgniter.php(942): App\Controllers\CustomersController->index()
+#7 /Users/roobee/http/spa/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomersController))
+#8 /Users/roobee/http/spa/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/roobee/http/spa/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /Users/roobee/http/spa/system/Commands/Server/rewrite.php(47): require_once('/Users/roobee/h...')
+#11 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 357.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-11-16 18:05:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-16 18:05:07 --> 22 : The requested URL returned error: 404 
+in SYSTEMPATH/HTTP/CURLRequest.php on line 693.
+ 1 SYSTEMPATH/HTTP/CURLRequest.php(693): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 404 ')
+ 2 SYSTEMPATH/HTTP/CURLRequest.php(387): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH/HTTP/CURLRequest.php(145): CodeIgniter\HTTP\CURLRequest->send('get', 'https://dummyjson.com/usersx')
+ 4 SYSTEMPATH/HTTP/CURLRequest.php(180): CodeIgniter\HTTP\CURLRequest->request('get', 'https://dummyjson.com/usersx', [])
+ 5 APPPATH/Models/CustomersModel.php(22): CodeIgniter\HTTP\CURLRequest->get('usersx')
+ 6 APPPATH/Controllers/CustomersController.php(36): App\Models\CustomersModel->getCustomers('*')
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CustomersController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomersController))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/roobee/http/spa/public/index.php')
+INFO - 2023-11-16 18:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 18:06:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 18:06:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 18:09:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-16 18:09:46 --> Invalid file: "error_404.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('error_404.php')
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('error_404', [], true)
+ 3 APPPATH/Controllers/CustomersController.php(43): view('error_404', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CustomersController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomersController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/roobee/http/spa/public/index.php')
+INFO - 2023-11-16 18:10:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 18:12:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 18:14:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 18:14:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 18:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-16 18:17:32 --> Object of class stdClass could not be converted to string
+in APPPATH/Views/errors/error.php on line 77.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('/errors/error', [], true)
+ 4 APPPATH/Controllers/CustomersController.php(43): view('/errors/error', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CustomersController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomersController))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/roobee/http/spa/public/index.php')
+INFO - 2023-11-16 18:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 18:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-16 18:21:26 --> Undefined array key "firstName"
+in APPPATH/Views/customers.php on line 154.
+ 1 APPPATH/Views/customers.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "firstName"', '/Users/roobee/http/spa/app/Views/customers.php', 154)
+ 2 SYSTEMPATH/View/View.php(228): include('/Users/roobee/http/spa/app/Views/customers.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('customers', [], true)
+ 5 APPPATH/Controllers/CustomersController.php(40): view('customers', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CustomersController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomersController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/roobee/http/spa/public/index.php')
+INFO - 2023-11-16 18:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-16 18:21:38 --> Attempt to read property "firstName" on array
+in APPPATH/Views/customers.php on line 154.
+ 1 APPPATH/Views/customers.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "firstName" on array', '/Users/roobee/http/spa/app/Views/customers.php', 154)
+ 2 SYSTEMPATH/View/View.php(228): include('/Users/roobee/http/spa/app/Views/customers.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('customers', [], true)
+ 5 APPPATH/Controllers/CustomersController.php(40): view('customers', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CustomersController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomersController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/roobee/http/spa/public/index.php')
+INFO - 2023-11-16 18:22:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-16 18:22:03 --> Attempt to read property "firstName" on array
+in APPPATH/Views/customers.php on line 154.
+ 1 APPPATH/Views/customers.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "firstName" on array', '/Users/roobee/http/spa/app/Views/customers.php', 154)
+ 2 SYSTEMPATH/View/View.php(228): include('/Users/roobee/http/spa/app/Views/customers.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('customers', [], true)
+ 5 APPPATH/Controllers/CustomersController.php(40): view('customers', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CustomersController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomersController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/roobee/http/spa/public/index.php')
+INFO - 2023-11-16 18:22:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 18:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-16 18:23:22 --> Cannot use object of type stdClass as array
+in APPPATH/Views/customers.php on line 138.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('customers', [], true)
+ 4 APPPATH/Controllers/CustomersController.php(40): view('customers', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CustomersController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomersController))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/roobee/http/spa/public/index.php')
+INFO - 2023-11-16 18:23:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 18:23:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 18:23:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 18:24:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 18:25:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-16 18:25:10 --> Attempt to read property "firstName" on int
+in APPPATH/Views/customers.php on line 154.
+ 1 APPPATH/Views/customers.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "firstName" on int', '/Users/roobee/http/spa/app/Views/customers.php', 154)
+ 2 SYSTEMPATH/View/View.php(228): include('/Users/roobee/http/spa/app/Views/customers.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('customers', [], true)
+ 5 APPPATH/Controllers/CustomersController.php(40): view('customers', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CustomersController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomersController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/roobee/http/spa/public/index.php')
+INFO - 2023-11-16 18:25:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 18:26:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 18:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 18:28:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 18:28:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 18:30:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 18:31:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 19:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 19:42:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 19:42:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 19:46:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 19:51:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 19:52:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 19:52:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 19:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 19:52:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 19:54:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 19:54:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 19:54:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 19:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-16 19:55:25 --> Undefined variable $userData
+in APPPATH/Views/auth/components/navbar.php on line 127.
+ 1 APPPATH/Views/auth/components/navbar.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userData', '/Users/roobee/http/spa/app/Views/auth/components/navbar.php', 127)
+ 2 SYSTEMPATH/View/View.php(228): include('/Users/roobee/http/spa/app/Views/auth/components/navbar.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('App\\Views\\auth\\components\\navbar', [], true)
+ 5 APPPATH/Views/auth/layouts/default.php(32): view('App\\Views\\auth\\components\\navbar')
+ 6 SYSTEMPATH/View/View.php(228): include('/Users/roobee/http/spa/app/Views/auth/layouts/default.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(244): CodeIgniter\View\View->render('auth/layouts/default', [], true)
+ 9 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('customers/create', [], true)
+10 APPPATH/Controllers/CustomersController.php(49): view('customers/create')
+11 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CustomersController->new()
+12 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomersController))
+13 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/roobee/http/spa/public/index.php')
+INFO - 2023-11-16 19:56:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 20:10:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 20:11:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 20:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 20:14:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 20:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 20:18:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 20:19:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 20:19:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 20:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 20:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 20:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 20:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 20:27:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 20:28:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 20:42:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 20:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 20:49:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 20:50:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 20:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 20:51:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 20:51:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 20:51:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 20:51:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 20:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 20:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 20:52:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 20:53:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 20:53:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 20:56:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 20:57:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 20:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:02:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:02:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:02:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:02:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:02:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:03:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:13:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-16 21:13:33 --> Invalid file: "services.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('services.php')
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('services', [], true)
+ 3 APPPATH/Controllers/ServicesController.php(39): view('services', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\ServicesController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServicesController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/roobee/http/spa/public/index.php')
+INFO - 2023-11-16 21:14:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:14:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:14:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:14:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:14:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:14:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:21:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:22:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:22:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:22:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:22:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:22:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:22:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:38:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:42:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:42:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-16 21:42:20 --> Call to undefined method CodeIgniter\View\View::extesectionnd()
+in APPPATH/Views/services/index.php on line 5.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('services/index', [], true)
+ 4 APPPATH/Controllers/ServicesController.php(34): view('services/index', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\ServicesController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServicesController))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/roobee/http/spa/public/index.php')
+INFO - 2023-11-16 21:42:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:42:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:44:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:44:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:44:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:44:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:44:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:44:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:45:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:49:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:49:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:52:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:54:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:54:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:56:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:57:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:57:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:57:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:57:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:57:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:58:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:59:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:59:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 21:59:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 22:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 22:00:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 22:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-16 22:04:32 --> Cannot access offset of type string on string
+in APPPATH/Views/services/index.php on line 26.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('services/index', [], true)
+ 4 APPPATH/Controllers/ServicesController.php(34): view('services/index', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\ServicesController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServicesController))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/roobee/http/spa/public/index.php')
+INFO - 2023-11-16 22:05:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-16 22:05:59 --> Cannot access offset of type string on string
+in APPPATH/Views/services/index.php on line 26.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('services/index', [], true)
+ 4 APPPATH/Controllers/ServicesController.php(34): view('services/index', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\ServicesController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServicesController))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/roobee/http/spa/public/index.php')
+INFO - 2023-11-16 22:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-16 22:08:39 --> Attempt to read property "users" on array
+in APPPATH/Views/customers/index.php on line 55.
+ 1 APPPATH/Views/customers/index.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "users" on array', '/Users/roobee/http/spa/app/Views/customers/index.php', 55)
+ 2 SYSTEMPATH/View/View.php(228): include('/Users/roobee/http/spa/app/Views/customers/index.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('customers/index', [], true)
+ 5 APPPATH/Controllers/ServicesController.php(34): view('customers/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\ServicesController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServicesController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/roobee/http/spa/public/index.php')
+INFO - 2023-11-16 22:08:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-16 22:08:56 --> Cannot access offset of type string on string
+in APPPATH/Views/services/index.php on line 26.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('services/index', [], true)
+ 4 APPPATH/Controllers/ServicesController.php(34): view('services/index', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\ServicesController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServicesController))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/roobee/http/spa/public/index.php')
+INFO - 2023-11-16 22:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 22:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-16 22:16:51 --> Cannot access offset of type string on string
+in APPPATH/Views/services/index.php on line 26.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('services/index', [], true)
+ 4 APPPATH/Controllers/ServicesController.php(34): view('services/index', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\ServicesController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServicesController))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/roobee/http/spa/public/index.php')
+INFO - 2023-11-16 22:17:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 22:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 22:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 22:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 22:18:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 22:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-16 22:21:03 --> Cannot use object of type stdClass as array
+in APPPATH/Views/services/index.php on line 26.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('services/index', [], true)
+ 4 APPPATH/Controllers/ServicesController.php(34): view('services/index', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\ServicesController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServicesController))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/roobee/http/spa/public/index.php')
+INFO - 2023-11-16 22:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 22:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 22:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 22:22:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 22:22:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 22:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 22:24:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 22:27:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-16 22:27:26 --> Undefined property: stdClass::$phone
+in APPPATH/Views/services/index.php on line 64.
+ 1 APPPATH/Views/services/index.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$phone', '/Users/roobee/http/spa/app/Views/services/index.php', 64)
+ 2 SYSTEMPATH/View/View.php(228): include('/Users/roobee/http/spa/app/Views/services/index.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('services/index', [], true)
+ 5 APPPATH/Controllers/ServicesController.php(34): view('services/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\ServicesController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServicesController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/roobee/http/spa/public/index.php')
+INFO - 2023-11-16 22:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 22:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 22:28:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 22:28:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 22:28:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 22:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 22:29:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 22:29:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 22:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 22:29:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 22:29:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 22:29:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 22:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 22:31:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 22:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 22:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-16 22:35:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
